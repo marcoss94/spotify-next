@@ -4,6 +4,10 @@ This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](
 
 It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
 
+## Demo 
+
+See here: https://spotify-next-six.vercel.app/
+
 ## Preview
 
 Preview the example live on [StackBlitz](http://stackblitz.com/):
