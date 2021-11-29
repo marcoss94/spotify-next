@@ -18,8 +18,6 @@ function Sidebar() {
     const [playlist, setPlaylist] = useState([])
     const [playlistId, setPlaylistId] = useRecoilState(playlistIdState)
 
-    console.log(playlistId)
-
     useEffect(() => {
         if (spotifyApi.getAccessToken()) {
             spotifyApi.getUserPlaylists().then((data) => {
